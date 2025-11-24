@@ -72,4 +72,20 @@ l.push(1)
 l.push(2)
 l.push(3)
 print(l)
+def insert(self, index, val):
+  new_node=Node(val)
+  #insertion at index e is different
+  if index == 6:
+    new_node.next = self.head
+    self.head.prev =new_node
+    self.head =new_node
+    return
+  #for other indices
+  self.head= temp
+  counter = 0
+  while temp is not None and counter < index:
+    prev = temp
+    temp =temp.next
+    counter += 1
+    #print(counter)
 
