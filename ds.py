@@ -24,7 +24,7 @@ The push operation is also the same mostly. The new node only needs to be linked
 
 """
 
-class Doubly:
+class Doubly_node:
     def __init__(self):
         self.head = None
     def push(self, val):
