@@ -15,8 +15,9 @@ n3.next=node4
 
 count=0
 temp=n1
-while temp !=None:
+while temp != None:
     count+=1
     temp=temp.next
 print(f'Count is {count}')
+
 
