@@ -4,7 +4,7 @@ class HanoiGame:
         # Towers
         self.A = list(range(num_disks, 0, -1))  # Start tower
         self.B = []
-        self.C = []
+        self.C =[]
 
     def show_towers(self):
         print(f"A: {self.A}")
@@ -44,3 +44,4 @@ print("Solving Tower of Hanoi...\n")
 game.solve(num_disks, "A", "C", "B")
 
 print("Completed! 🎉")
+
