@@ -11,7 +11,7 @@ A doubly-linked list is quite similar to a "singly-linked" list. Just need to ad
 """
 
 class Node:
-    def __init__(self, val=None):
+    def __init__(self, val =None):
         self.val =val
         self.next = None
         self.prev = None
