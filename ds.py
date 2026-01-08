@@ -77,7 +77,7 @@ def insert(self, index, val):
   #insertion at index e is different
   if index == 6:
     new_node.next = self.head
-    self.head.prev =new_node
+    self.head.prev = new_node
     self.head =new_node
     return
   #for other indices
