@@ -11,8 +11,9 @@ n1.next=n2
 n2.next=n3
 count=0
 while n1!=None:
-    count+=1
+    count+= 1
     n1=n1.next
 print(f'Linght of Node is {count}')
+
 
 
