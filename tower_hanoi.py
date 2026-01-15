@@ -12,7 +12,7 @@ class HanoiGame:
         print(f"C: {self.C}")
         print("-"*20)
 
-    def move_disk(self, from_tower, to_tower):
+    def move_disk( self, from_tower, to_tower):
         # Get source and destination towers
         source = getattr(self, from_tower)
         dest = getattr(self, to_tower)
@@ -44,4 +44,5 @@ print("Solving Tower of Hanoi...\n")
 game.solve(num_disks, "A", "C", "B")
 
 print("Completed! 🎉")
+
 
