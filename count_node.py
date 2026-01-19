@@ -3,7 +3,7 @@
 class My_node:
     def __init__(self,data):
         self.data=data
-        self.next=None
+        self.next= None
 n1= My_node(50)
 n2= My_node(40)
 n3 = My_node(30)
@@ -19,6 +19,7 @@ while temp != None:
     count+= 1
     temp=temp.next
 print(f'Count is {count}')
+
 
 
 
