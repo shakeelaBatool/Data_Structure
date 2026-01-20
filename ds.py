@@ -37,7 +37,7 @@ class Doubly_node:
         while last.next is not None:
             last = last.next
         last.next = new_node
-        new_node.prev = last
+        new_node.prev =last
 
 
 
