@@ -9,7 +9,7 @@ n3=Node(14)
 n4=Node(15)
 n1.next=n2
 n2.next=n3
-n3.next=n4
+n3.next =n4
 n2.prev=n1
 n3.prev=n2
 n4.prev=n3
@@ -24,4 +24,5 @@ while temp:
     temp=temp.prev
 
 print("None")
+
 
