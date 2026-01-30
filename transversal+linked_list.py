@@ -5,7 +5,7 @@ class Node:
         self.next=None
 n1= Node(12)
 n2=Node(13)
-n3=Node(14)
+n3= Node(14)
 n4=Node(15)
 n1.next=n2
 n2.next=n3
@@ -24,6 +24,7 @@ while temp:
     temp=temp.prev
 
 print("None")
+
 
 
 
