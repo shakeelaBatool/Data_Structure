@@ -10,7 +10,9 @@ def pop():
 push(9)
 push(11)
 push(12)
+push(14)
 pop()
 pop()
 pop()
+
 pop()
