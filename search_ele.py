@@ -9,12 +9,13 @@ n1.next.next.next= Node(16)
 n1.next.next.next.next = Node(17)
 search=int(input("Enter your seach: "))
 temp=n1
-while temp !=None:
+while temp != None:
     
     if temp.data==search:
         print("Find ")
         break   
     temp=temp.next
+
 
 
 
