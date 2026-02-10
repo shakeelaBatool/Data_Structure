@@ -13,18 +13,18 @@ def sort(head):
     while head is not None:
         j=head.next
         while j is not None:
-            if head.data<j.data :
+            if head.data>j.data :
                 temp=head.data
                 
                 head.data=j.data
                 j.data=temp
             j=j.next
         head=head.next
-n1=Node(1)
-n2=Node(9)
-n3=Node(3)
-n4=Node(4)
-n5=Node(5)
+n1=Node(2)
+n2=Node(1)
+n3=Node(5)
+n4=Node(3)
+n5=Node(4)
 n1.next=n2
 n2.next=n3
 n3.next=n4
@@ -33,4 +33,4 @@ print("Before sorting")
 display(n1)
 sort(n1)
 print("After sorting")
-display(n1)
+display(n1) 
