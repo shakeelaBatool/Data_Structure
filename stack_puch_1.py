@@ -2,7 +2,7 @@ stack=[]
 def push(x):
     stack.append(x)
 def pop():
-    if len(stack)==0:
+    if len(stack)== 0:
         print("Stack is empty")
     else:
         print(stack.pop())
@@ -16,3 +16,4 @@ pop()
 pop()
 
 pop()
+
