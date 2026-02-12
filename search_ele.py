@@ -2,7 +2,7 @@ class Node:
     def __init__(self, data):
         self.data=data
         self.next=None    
-n1=Node(13)
+n1= Node(13)
 n1.next= Node(14)
 n1.next.next=Node(15)
 n1.next.next.next= Node(16)
@@ -15,6 +15,7 @@ while temp != None:
         print("Find ")
         break   
     temp=temp.next
+
 
 
 
