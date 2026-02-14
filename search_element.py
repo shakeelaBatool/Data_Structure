@@ -14,11 +14,12 @@ def search(node, value):
     search(node.right, value)
     
 root= Treenode(1)
-root.left=Treenode(2)
+root.left =Treenode(2)
 root.right=Treenode(3)
 value=int(input("Search element: "))
 search(root,value)
         
+
 
 
 
