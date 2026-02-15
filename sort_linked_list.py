@@ -11,7 +11,7 @@ def display(n1):
 def sort(head):
     
     while head is not None:
-        j= head.next
+        j = head.next
         while j is not None:
             if head.data>j.data :
                 temp=head.data
@@ -35,4 +35,5 @@ sort(n1)
 print("After sorting")
 
 display(n1) 
+
 
