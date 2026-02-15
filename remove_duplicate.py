@@ -3,7 +3,7 @@ class Node:
         self.data=data
         self.next=None
 def insert(head,data):
-    new= Node(data)
+    new = Node(data)
     if head is None:
         return new
     temp=head
@@ -39,4 +39,5 @@ display(head)
 head=re_duplicate(head)
 print("After removing duplicates:")
 display(head)
+
 
