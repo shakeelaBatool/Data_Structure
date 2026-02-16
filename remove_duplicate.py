@@ -1,6 +1,6 @@
 class Node: 
     def __init__(self, data):
-        self.data=data
+        self.data= data
         self.next=None
 def insert(head,data):
     new = Node(data)
@@ -39,5 +39,6 @@ display(head)
 head=re_duplicate(head)
 print("After removing duplicates:")
 display(head)
+
 
 
