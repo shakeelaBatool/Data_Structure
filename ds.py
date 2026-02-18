@@ -49,7 +49,7 @@ def pop(self):
             val = self.head.val
             self.head = None
             return val
-        temp = self.head
+        temp =self.head
         while temp.next is not None:
             prev = temp
             temp = temp.next
