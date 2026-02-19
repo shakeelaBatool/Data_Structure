@@ -1,6 +1,6 @@
 class Node:
     def __init__(self, data):
-        self.data=data
+        self.data= data
         self.next=None
 
 def insert_end(head, data):
@@ -24,4 +24,5 @@ head=None
 for i in range(n):
     val=int(input("Enter the element: "))
     head=insert_end(head, val)
+
 display(head)
