@@ -11,7 +11,7 @@ def display(head):
 def re_node(head, n):
     if n == 1:
         return head.next
-    temp = head
+    temp =head
     count = 1  
     while temp is not None and count < n - 1:
         temp =temp.next
@@ -30,6 +30,7 @@ n = int(input("Which node to remove: "))
 head = re_node(head, n)
 print("Updated List:")
 display(head)
+
 
 
 
