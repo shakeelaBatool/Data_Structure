@@ -8,7 +8,7 @@ def insert(head,data):
         return new
     temp=head
     while temp.next is not None:
-        temp= temp.next
+        temp = temp.next
     temp.next=new
     return head
 
@@ -39,6 +39,7 @@ display(head)
 head=re_duplicate(head)
 print("After removing duplicates:")
 display(head)
+
 
 
 
