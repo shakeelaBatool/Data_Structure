@@ -6,7 +6,7 @@ def display(n1):
     temp= n1
     while temp is not None:
         print(temp.data, end="-->")
-        temp=temp.next
+        temp =temp.next
     print(None)
 def sort(head):
     
@@ -35,5 +35,6 @@ sort(n1)
 print("After sorting")
 
 display(n1) 
+
 
 
