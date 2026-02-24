@@ -4,7 +4,7 @@ class Node:
         self.next=None    
 n1= Node(13)
 n1.next= Node(14)
-n1.next.next=Node(15)
+n1.next.next =Node(15)
 n1.next.next.next= Node(16)
 n1.next.next.next.next = Node(17)
 search=int(input("Enter your seach: "))
@@ -15,6 +15,7 @@ while temp != None:
         print("Find ")
         break   
     temp=temp.next
+
 
 
 
