@@ -22,7 +22,7 @@ def display(head):
 def re_duplicate(head):
     dup=head
     while dup is not None:
-        re_dup=dup
+        re_dup =dup
         while re_dup.next is not None:
             if re_dup.next.data==dup.data:
                 re_dup.next=re_dup.next.next
@@ -39,6 +39,7 @@ display(head)
 head=re_duplicate(head)
 print("After removing duplicates:")
 display(head)
+
 
 
 
