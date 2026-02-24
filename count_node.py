@@ -7,7 +7,7 @@ class My_node:
 n1 = My_node(50)
 n2= My_node(40)
 n3 = My_node(30)
-node4 = My_node(20)
+node4  =My_node(20)
 
 n1.next = n2
 n2.next= n3
@@ -19,6 +19,7 @@ while temp !=None:
     count+= 1
     temp=temp.next
 print(f'Count is {count}')
+
 
 
 
