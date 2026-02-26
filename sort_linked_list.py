@@ -1,7 +1,7 @@
 class Node:
     def __init__(self,data):
         self.data=data
-        self.next=None
+        self.next= None
 def display(n1):
     temp= n1
     while temp is not None:
@@ -35,6 +35,7 @@ sort(n1)
 print("After sorting")
 
 display(n1) 
+
 
 
 
