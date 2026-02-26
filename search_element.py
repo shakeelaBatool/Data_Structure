@@ -1,6 +1,6 @@
 class Treenode:
     def __init__(self,data):
-        self.data=data
+        self.data =data
         self.left=None
         self.right=None
 
@@ -19,6 +19,7 @@ root.right=Treenode(3)
 value=int(input("Search element: "))
 search(root,value)
         
+
 
 
 
