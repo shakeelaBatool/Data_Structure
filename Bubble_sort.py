@@ -1,4 +1,4 @@
-list_bu=[7, 12, 9, 11, 3]
+list_bu= [7, 12, 9, 11, 3]
 n = len(list_bu)
 
 for i in range(n):
@@ -7,5 +7,6 @@ for i in range(n):
             list_bu[j], list_bu[j + 1] = list_bu[j + 1], list_bu[j]
 
 print(list_bu)
+
 
 
