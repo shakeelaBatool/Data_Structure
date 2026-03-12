@@ -6,8 +6,9 @@ index = 0
 for i in name_1:
     index+=(ord(i))
 index=index%10
-table[index]=value
+table[index]= value
 
 print(f'{name_1} is at index {index}: {table[index]}')
+
 
 
