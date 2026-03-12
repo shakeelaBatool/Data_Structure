@@ -10,7 +10,7 @@ def insert_end(head, data):
     temp=head
     while temp.next is not None:
         temp=temp.next
-    temp.next=new
+    temp.next= new
     return head
 def display(head):
     temp=head
@@ -26,5 +26,6 @@ for i in range(n):
     head=insert_end(head, val)
 
 display(head)
+
 
 
