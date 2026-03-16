@@ -6,7 +6,7 @@ def insert(head,data):
     new = Node(data)
     if head is None:
         return new
-    temp=head
+    temp= head
     while temp.next is not None:
         temp =temp.next
     temp.next= new
