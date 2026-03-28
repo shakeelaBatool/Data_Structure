@@ -6,7 +6,7 @@ class Node:
         self.next= None
 n1=Node(12)
 n1.next= Node(13)
-n1.next.next=Node(14)
+n1.next.next= Node(14)
 n1.next.Next.next =Node(15)
 while n1 != None:
     print(n1.data,"➡  ", end="")
