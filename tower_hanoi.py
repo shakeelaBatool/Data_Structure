@@ -14,7 +14,7 @@ class HanoiGame:
 
     def move_disk( self, from_tower, to_tower):
         # Get source and destination towers
-        source = getattr(self, from_tower)
+        source= getattr(self, from_tower)
         dest =getattr(self, to_tower)
         disk = source[-1]          # Take top disk
         dest.append(disk)          # Place on destination
