@@ -5,7 +5,7 @@ class My_node:
         self.data  data
         self.next =  None
 n1 = My_node(50)
-n2= My_node(40)
+n2=My_node(40)
 n3 = My_node(30)
 node4  = My_node(20)
 
