@@ -11,7 +11,7 @@ def search(node, value):
     if node.data == value:
         print("Value found: ",node.data)
     search(node.left, value)
-    search(node.right, value)
+    search(node.right, alue)
     
 root= Treenode(1)
 root.left =Treenode(2)
