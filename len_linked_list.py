@@ -3,7 +3,7 @@ class Node:
         self.data = data
         self.next = None
        
-n1= Node(12)
+n1 = Node(12)
 n2= Node(13)
 n3= Node(14)
 
