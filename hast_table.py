@@ -1,4 +1,4 @@
-table= [None]*10
+table = [None]*10
 print(len(table))
 name_1 = "Ali"
 value = 25
