@@ -1,4 +1,4 @@
-stack= []
+stack = []
 def push(x):
     stack.append(x)
 def pop():
