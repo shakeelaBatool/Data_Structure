@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1f2WCJ25zv5f9PU0nnUGBgmne6bFriwrV
 
 Doubly Linked List
-A doubly-linked list is quite similar to a "singly-linked" list. Just need to add a prev pointer to all the nodes.
+A doubly-linked list is quite similar to a "singly-linked" list. Just n eed to add a prev pointer to all the nodes.
 """
 
 class Node:
