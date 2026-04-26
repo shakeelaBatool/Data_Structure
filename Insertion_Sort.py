@@ -1,4 +1,4 @@
-arr= [7,12,8,9,3]
+arr = [7,12,8,9,3]
 n = len(arr)
 #
 for i in range (n):
