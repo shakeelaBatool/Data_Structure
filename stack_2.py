@@ -1,4 +1,4 @@
-stack = []                               # Last In, First Out
+stack =  []                               # Last In, First Out
 stack.append("palte1")
 stack.append("palte2")
 stack.append("palte3")
