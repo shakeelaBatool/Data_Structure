@@ -1,7 +1,7 @@
 class Node:
     def __init__(self, data):
         self.data = data
-        self.next=None
+        self.next =None
 
 def insert_end(head, data):
     new=Node(data)
