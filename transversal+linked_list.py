@@ -2,7 +2,7 @@ class Node:
     def __init__(self, data):
         self.data = data
         self.prev= None
-        self.next=None
+        self.next =None
 n1= Node(12)
 n2=Node(13)
 n3= Node(14)
