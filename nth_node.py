@@ -6,7 +6,7 @@ def display(head):
     temp = head
     while temp:
         print(temp.data, end="-->")
-        temp = temp.next
+        temp =temp.next
     print("None")
 def re_node(head, n):
     if n == 1:
