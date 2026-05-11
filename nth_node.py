@@ -14,7 +14,7 @@ def re_node(head, n):
     temp =head
     count = 1  
     while temp is not None and count < n - 1:
-        temp =temp.next
+        temp = temp.next
         count += 1
     if temp is not None  and temp.next:
         temp.next = temp.next.next  
