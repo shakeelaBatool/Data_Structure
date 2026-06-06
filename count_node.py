@@ -10,7 +10,7 @@ n3 = My_node(30)
 node4  = My_node(20)
 
 n1.next = n2
-n2.next= n3
+n2.next=n3
 n3.next = node
 
 count = 0
