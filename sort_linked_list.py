@@ -20,7 +20,7 @@ def sort(head):
                 j.data=temp
             j=j.next
         head=head.next
-n1=Node(2)
+n1= Node(2)
 n2=Node(1)
 n3=Node(5)
 n4=Node(3)
