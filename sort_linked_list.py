@@ -3,7 +3,7 @@ class Node:
         self.data=data
         self.next = None
 def display(n1):
-    temp= n1
+    temp = n1
     while temp is not None:
         print(temp.data, end="-->")
         temp = temp.next
