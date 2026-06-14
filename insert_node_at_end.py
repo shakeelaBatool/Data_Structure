@@ -4,7 +4,7 @@ class Node:
         self.next = None
 
 def insert_end(head, data):
-    new=Node(data)
+    new= Node(data)
     if head is None:
         return new
     temp=head
