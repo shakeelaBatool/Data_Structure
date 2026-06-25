@@ -7,7 +7,7 @@ n1 = Node(12)
 n2 = Node(13)
 n3= Node(14)
 
-n1.next= n2
+n1.next = n2
 n2.next= n3
 count=0
 while n1!=None:
